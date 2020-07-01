@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang='ru'>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+   <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<div class="container-fluid all">
+
+   <div class="jumbotron">
+      <h2 class="text-center" style="font-size:32px;color:#faee82;">Местное время и
+         дата</h2>
+      <p>Сегодня: <strong><span id="date"></span></strong></p>
+      <p>Текущее время: <strong><span id="time"
+                                      style="color:#ffffff;text-shadow: 0 0 5px #070707;"></span></strong>
+      </p>
+   </div>
+   <div class="row">
+      <div class="col-md-12 well" id="city">
+         <h2 class="text-center" style="font-size:32px;color:#faee82;">Погода для</h2>
+         <p class="text-center data-item" id="city-text"></p>
+         <p class="text-center data-item" id="city-text2"></p>
+         <p class="text-center data-item" id="city-text3"></p>
+         <p class="text-center data-item" id="city-text4"></p>
+         <p class="text-center data-item" id="city-text5"></p>
+         <p class="text-center data-item" id="city-text6"></p>
+
+
+         <div class="row">
+            <div class="col-md-4" id="weather">
+               <img src="" id="weatherImg" class="center-block">
+               <h3 class="text-center data-item" id="weather-text"></h3>
+            </div>
+            <div class="col-md-4" id="temp">
+               <h3 class="text-center">Температура<br><span
+                   style="font-size: 12px;">Кликните по значку погоды,<br> чтобы изменить C на F</span></h3>
+               <h3 class="text-center data-item noselect"><span id="temp-text"></span> <span id="tempMode">C&deg</span>
+               </h3>
+            </div>
+            <div class="col-md-4" id="wind">
+               <p class="text-center">Скорость ветра</p>
+               <p class="text-center data-item" id="wind-text"></p>
+               <p class="text-center data-item">или</p>
+               <p class="text-center data-item" id="wind-text2"></p>
+               <p class="text-center">Направление ветра</p>
+               <p class="text-center data-item" id="wind-text5"></p>
+            </div>
+            <div class="col-md-4" id="pressure">
+               <p class="text-center">Атмосферное давление</p>
+               <p class="text-center data-item" id="wind-text3"></p>
+            </div>
+            <div class="col-md-4" id="humidity">
+               <p class="text-center">Относительная влажность</p>
+               <p class="text-center data-item" id="wind-text4"></p>
+
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+</div>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='index.js'></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family:Open Sans;
+    font-size:22px;
+}
+
+#el {
+    width: 100px;
+    height: 100px;
+    transform: rotate(55deg);
+    margin: 50px;
+}
+
+.container-fluid {
+    background-color: #113d0a;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#wind, #temp, #weather, #pressure, #humidity {
+    border: 1px solid #b6f7ab;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.text-center {
+    font-family: Open Sans;
+    font-size: 32px;
+    color: #81f7e8;
+}
+
+.text-center .data-item {
+    font-family: Open Sans;
+    font-size: 26px;
+}
+
+
+.data-item {
+    color: #ffffff;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron,
+.well {
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    color: white;
+}
+
+.row, .jumbotron {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+
+}
+
+.copyright {
+    color: #222;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+    /* non-prefixed version, currently
+                           not supported by any browser */
+}
+
+#tempMode {
+    cursor: pointer;
+}
